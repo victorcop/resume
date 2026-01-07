@@ -4,7 +4,7 @@ My professional resume built with HTML and CSS.
 
 ## 🚀 Live Demo
 
-Visit: [https://victorcop.github.io/resume](https://victorcop.github.io/resume)
+Visit: [https://victorcop.com](https://victorcop.com)
 
 ## 📋 About
 
