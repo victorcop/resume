@@ -36,6 +36,11 @@ body {
     padding: 1.5rem 1rem;
 }
 
+a {
+    color: #1a1a1a;
+    text-decoration-color: #1a1a1a;
+}
+
 main {
     max-width: 56rem;
     margin: 0 auto;
@@ -112,6 +117,7 @@ h1 {
 
 .username-row a:hover {
     text-decoration: underline;
+    text-decoration-color: #1a1a1a;
 }
 
 .social-links {
@@ -175,6 +181,7 @@ h1 {
 
 .location-row a:hover {
     text-decoration: underline;
+    text-decoration-color: #1a1a1a;
 }
 
 .avatar {
@@ -240,6 +247,7 @@ h2 a {
 
 .company-row h3 a:hover {
     text-decoration: underline;
+    text-decoration-color: #1a1a1a;
 }
 
 .external-link-icon {
