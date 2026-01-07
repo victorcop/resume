@@ -337,11 +337,40 @@ li span.bullet {
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .languages-list li {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.language-name {
+    font-weight: 600;
+    min-width: 5rem;
+}
+
+.language-level {
+    color: #666;
+    font-size: 0.875rem;
+    min-width: 4rem;
+}
+
+.stars {
+    display: flex;
+    gap: 0.125rem;
+    font-size: 1.125rem;
+    line-height: 1;
+}
+
+.star {
+    color: #ddd;
+}
+
+.star.filled {
+    color: #1a1a1a;
 }
 
 .languages-list li span.bullet {
