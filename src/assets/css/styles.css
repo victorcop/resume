@@ -69,6 +69,7 @@ h1 {
 .subtitle {
     font-size: 1rem;
     line-height: 1.5;
+    font-weight: 700;
 }
 
 .header-details {
@@ -102,6 +103,15 @@ h1 {
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
+}
+
+.username-row a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.username-row a:hover {
+    text-decoration: underline;
 }
 
 .social-links {
