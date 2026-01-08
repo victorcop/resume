@@ -151,6 +151,22 @@ body {
     transition: background var(--transition-fast);
 }
 
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    padding: var(--space-xs);
+    cursor: pointer;
+    color: var(--color-text);
+    width: 36px;
+    height: 36px;
+}
+
+.menu-toggle svg {
+    width: 24px;
+    height: 24px;
+}
+
 .nav-links {
     display: flex;
     justify-content: center;
@@ -709,6 +725,43 @@ section[aria-labelledby="certifications"] a:hover {
 
 .course-card h3.course-title a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 639px) {
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: var(--color-nav-bg);
+        border-bottom: 1px solid var(--color-border);
+        flex-direction: column;
+        padding: var(--space-md);
+        gap: var(--space-sm);
+        display: none;
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        width: 100%;
+        text-align: left;
+        padding: var(--space-sm) var(--space-md);
+    }
+
+    main {
+        margin-top: 4rem;
+    }
 }
 
 @media (min-width: 640px) {
