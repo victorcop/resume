@@ -459,6 +459,27 @@ li span.bullet {
     white-space: nowrap;
 }
 
+.project-description {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+    margin: 0 0 var(--space-sm) 0;
+}
+
+.course-card h3.course-title {
+    margin-bottom: var(--space-xs);
+    font-size: 1rem;
+}
+
+.course-card h3.course-title a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.course-card h3.course-title a:hover {
+    text-decoration: underline;
+}
+
 @media (min-width: 640px) {
     body {
         line-height: 1.5;
