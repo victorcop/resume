@@ -243,7 +243,7 @@ a {
 }
 
 main {
-    max-width: 56rem;
+    max-width: 50rem;
     margin: 0 auto;
     margin-top: 7rem;
     display: flex;
@@ -359,6 +359,7 @@ h1 {
 .social-links a:last-child svg {
     fill: currentColor;
     stroke: none;
+    stroke-width: 0;
 }
 
 .location-row {
@@ -501,6 +502,15 @@ li span.bullet {
     color: var(--color-text-light);
 }
 
+section[aria-labelledby="certifications"] a {
+    text-decoration: none;
+}
+
+section[aria-labelledby="certifications"] a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-text);
+}
+
 .skills-group {
     display: flex;
     flex-direction: column;
@@ -551,6 +561,19 @@ li span.bullet {
     font-family: var(--font-mono);
     font-size: 1rem;
     font-weight: 700;
+}
+
+.education-item h3 a {
+    color: var(--color-text);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+.education-item h3 a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-text);
 }
 
 .languages-list {
